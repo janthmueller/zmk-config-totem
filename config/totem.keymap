@@ -121,7 +121,7 @@
             bindings = <
         &kp GRAVE  &kp N7        &kp N8        &kp N9        &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp EXCLAMATION       &kp AT_SIGN      &kp POUND               &kp DOLLAR
         &kp EQUAL  &kp NUMBER_4  &kp N5        &kp N6        &kp LBKT                &kp RBKT               &mt RIGHT_SHIFT PLUS  &mt RCTRL MINUS  &mt RIGHT_ALT ASTERISK  &mt RGUI SLASH
-&trans  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp PERCENT           &kp CARET        &kp AMPERSAND           &kp PIPE        &trans
+&trans  &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp PERCENT           &kp CARET        &kp AMPERSAND           &kp BACKSLASH   &trans
                                  &trans        &trans        &trans                  &mo 5                  &trans                &trans
             >;
         };
