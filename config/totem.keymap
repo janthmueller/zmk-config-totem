@@ -34,7 +34,7 @@
         compatible = "zmk,combos";
 
         toggle-home-row-mods-left {
-            timeout-ms = <100>;
+            timeout-ms = <30>;
             key-positions = <11 12 13>;
             bindings = <&tog 1>;
         };
@@ -42,6 +42,7 @@
         toggle-home-row-mods-right {
             bindings = <&tog 1>;
             key-positions = <16 17 18>;
+            timeout-ms = <30>;
         };
 
         ralt {
