@@ -56,6 +56,11 @@
             key-positions = <11 12>;
             timeout-ms = <30>;
         };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
     };
 
     macros {
