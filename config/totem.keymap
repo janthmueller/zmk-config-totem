@@ -62,6 +62,11 @@
             key-positions = <0 1>;
             timeout-ms = <30>;
         };
+
+        toggle-blt {
+            bindings = <&tog 4>;
+            key-positions = <32 37>;
+        };
     };
 
     macros {
@@ -140,7 +145,7 @@
         &kp GRAVE       &kp N7             &kp N8        &kp N9               &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp EXCLAMATION       &kp AT_SIGN      &kp POUND              &kp DOLLAR
         &mt LGUI EQUAL  &mt LALT NUMBER_4  &mt LCTRL N5  &mt LSHIFT NUMBER_6  &kp LBKT                &kp RBKT               &mt RIGHT_SHIFT PLUS  &mt RCTRL MINUS  &mt LEFT_ALT ASTERISK  &mt RGUI SLASH
 &trans  &kp N0          &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3         &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp PERCENT           &kp CARET        &kp AMPERSAND          &kp BACKSLASH   &trans
-                                           &trans        &trans               &trans                  &mo 4                  &trans                &trans
+                                           &trans        &trans               &trans                  &trans                 &trans                &trans
             >;
         };
 
@@ -170,10 +175,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans        &trans        &trans        &trans        &bt BT_CLR    &trans  &trans      &trans      &trans  &trans
-        &trans        &bt BT_SEL 4  &trans        &trans        &trans        &trans  &bt BT_NXT  &bt BT_PRV  &trans  &trans
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans        &trans  &trans      &trans      &trans  &trans  &trans
-                                    &trans        &trans        &trans        &trans  &trans      &trans
+        &trans        &trans        &trans        &trans        &bt BT_CLR    &trans  &kp F7  &kp F8  &kp F9  &kp F10
+        &trans        &bt BT_SEL 4  &trans        &trans        &trans        &trans  &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans        &trans  &kp F1  &kp F2  &kp F3  &kp F12  &trans
+                                    &trans        &trans        &trans        &trans  &trans  &trans
             >;
         };
     };
